@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navBackground {
+    background-color: black;
+    position: sticky;
+    top: -135px;
+}
+
+body {
+    background-color: rgb(156, 163, 175);
+    background-image: url;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    margin: 20px auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 35px
+}
+
+.parrafo {
+    color: white;
+    text-align: center;
+    line-height: 2.2;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 20px auto;
+}
+.navegacion{
+    color: white;
+    text-align: center;
+    line-height: 2.2;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 20px auto;
+}
+
+.navegacion ul li a {
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.footBackground {
+    background-color: black;
+    margin-top: 50rem;
+}
+
+.footer {
+    text-decoration: none;
+}
+
+
+.tituloSecundario {
+    font-size: 4.5rem;
+    color: white;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin: 20px auto;
+}
+
+.section1 img {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-content: center;
+   height: 40vh;
+   margin: 50px auto;
+   border: solid 3px darkgoldenrod;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 70vh;
+}
+.galeria__card{
+   width: 150px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.galeria__card img{
+    width: 100%;
+    border: solid 3px darkgoldenrod;
+    border-radius: 6px;
+}
+.galeria__card__texto{
+    color: white;
+    background-color: black;
+    width: fit-content;
+    border: solid 3px darkgoldenrod;
+    border-radius: 6px;
+    padding: 0 20px;
+    margin: 20px auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+
+.musica1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 10vh;
+    padding-left: 9%;
+    margin: 50px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    line-height: 2.2;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 40px auto;
+}
+
+.contacto1 {
+    color: white;
+    text-align: left;
+    line-height: 2.2;
+    font-size: 25px;
+    padding-left: 3rem;
+    margin: 100px auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.input1 {
+    padding-left: 45.5%;
+}
+
+.ubicacion {
+    color: white;
+    list-style: none;
+    text-align: center;
+    line-height: 2.2;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.ubicacion__lista{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-content: center;
+   height: 40vh;
+   padding-left: 39%;
+   margin: 40px 20px;
+}
+
+.foto1 {
+    padding-left: 43%
+}
+
+.boton {
+    background-color: black;
+    width: fit-content;
+    border: solid 3px darkgoldenrod;
+    border-radius: 6px;
+    padding: 0 20px;
+    margin: 20px auto;
+
+}
+
+.boton a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navegacion__lista__item {
+   height: fit-content;
+   width: fit-content;
+}
+
+.navegacion__lista {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer__lista__item {
+    display: inline-block;
+    margin: 20px;
+}
+
+.whatsapp ul li a img {
+    width: 70px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+.itemSubmenu {
+    position: relative;
+}
+
+.navegacion__lista__submenu {
+    background-color: gold;
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+
+.itemSubmenu:hover .navegacion__lista__submenu {
+    display: block;
+}
+
+.opinion {
+    color: white;
+    text-align: left;
+    line-height: 2.2;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    padding-left: 9%;
+}
+
+.input2 {
+    padding-left: 10%;
+}
+
+.input2__lista {
+    margin: 2px;
+    color: white;
+    line-height: 2.2;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+
+}
+h3 {
+    color: white;
+    text-align: left;
+    line-height: 2.2;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    padding-left: 14%;
+    margin: 3%;
+}
+.bodyBackground{
+    background-color: goldenrod;
+
+}
+.pasos1__item{
+    background-color: aqua;
+    border: solid 1px rgb(33, 12, 12);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pasos1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 200px);
+    gap: 10px 30px;
+    padding: 20px;
+    height: 40vh;
+
+    justify-content: center;
+    align-content: center;
+}
+.precio__item{
+    background-color: aqua;
+    border: solid 1px rgb(33, 12, 12);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.precio{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    padding: 150px;
+    height: 5vh;
+    gap: 10px 30px;
+    justify-content: center;
+    align-content: center;
+}
+
+@media screen and (max-width: 768px){
+    .bodyBackground{
+        background-color: gray;
+    }
+}
+@media screen and (max-width: 700px){
+    .ubicacion__lista{
+        display: none;
+    }
+    .foto1{
+        display: none;
+    }
+    .musicah3{
+        display: none;
+    }
+
+    }
+
+@media screen and (max-width: 384px){
+    .musica1{
+        width: 150px;
+        height: 150px;
+    }
+    .input1{
+        display: none;
+    }
+    .section1 img{
+        display: none;
+    }
+}
+@media screen and (max-width: 320px){
+    .bodyBackground{
+        background-color: red;
+    }
+    .navegacion__lista{
+        height: 300px;
+        flex-direction: column;
+    }
+    .section1 img{
+        display: none;
+    }
+    .musica1{
+        display: none;
+    }
+    .foto1{
+        display: none;
+    }
+    
+}
